@@ -1,11 +1,10 @@
 {
 	"name": "Haramosh",
-	"$schema": "vscode://schemas/color-theme",
 	"type": "light",
 	"colors": {
 		"activityBar.background": "#ffffff",
 		"activityBar.foreground": "#000000",
-		"activityBar.inactiveForeground": "#c0c0c0",
+		"activityBar.inactiveForeground": "#b8b8b8",
 		"activityBarBadge.background": "#000000",
 		"activityBarBadge.foreground": "#ffffff",
 		"badge.background": "#000000",
@@ -39,7 +38,7 @@
 		"editorHoverWidget.background": "#fafafa",
 		"editorHoverWidget.border": "#f5f5f5",
 		"editorLineNumber.activeForeground": "#000000",
-		"editorLineNumber.foreground": "#c0c0c0",
+		"editorLineNumber.foreground": "#b8b8b8",
 		"editorOverviewRuler.border": "#f5f5f5",
 		"editorPane.background": "#ffffff",
 		"editorSuggestWidget.background": "#fafafa",
@@ -59,14 +58,14 @@
 		"list.highlightForeground": "#505050",
 		"list.hoverBackground": "#00000004",
 		"list.hoverForeground": "#000000",
-		"list.inactiveSelectionBackground": "#c0c0c0",
+		"list.inactiveSelectionBackground": "#b8b8b8",
 		"list.inactiveSelectionForeground": "#000000",
 		"listFilterWidget.background": "#000000",
 		"listFilterWidget.outline": "#000000",
 		"panelTitle.activeBorder": "#f5f5f5",
 		"progressBar.background": "#505050",
 		"searchEditor.findMatchBackground": "#f50e0e",
-		"selection.background": "#c0c0c0",
+		"selection.background": "#b8b8b8",
 		"sideBar.background": "#ffffff",
 		"sideBar.border": "#f5f5f5",
 		"sideBar.dropBackground": "#ffffff",
@@ -83,7 +82,7 @@
 		"statusBar.noFolderForeground": "#ffffff",
 		"statusBarItem.activeBackground": "#505050",
 		"statusBarItem.hoverBackground": "#505050",
-		"tab.activeBackground": "#c0c0c0",
+		"tab.activeBackground": "#b8b8b8",
 		"tab.activeBorderTop": "#f5f5f5",
 		"tab.hoverBackground": "#ffffff",
 		"tab.hoverBorder": "#ffffff",
@@ -110,7 +109,7 @@
 		"titleBar.activeBackground": "#ffffff",
 		"titleBar.activeForeground": "#00000080",
 		"titleBar.inactiveBackground": "#ffffff",
-		"titleBar.inactiveForeground": "#c0c0c0",
+		"titleBar.inactiveForeground": "#b8b8b8",
 		//"activityBar.activeBackground": null,
 		//"activityBar.activeBorder": "#000000",
 		//"activityBar.activeFocusBorder": null,
@@ -198,7 +197,7 @@
 		//"editor.snippetTabstopHighlightBackground": "#0a326433",
 		//"editor.snippetTabstopHighlightBorder": null,
 		//"editor.stackFrameHighlightBackground": "#ffff6673",
-		//"editor.symbolHighlightBackground": "#c0c0c0",
+		//"editor.symbolHighlightBackground": "#b8b8b8",
 		//"editor.symbolHighlightBorder": null,
 		//"editor.wordHighlightBackground": "#57575740",
 		//"editor.wordHighlightBorder": null,
@@ -288,7 +287,7 @@
 		//"extensionBadge.remoteBackground": "#505050",
 		//"extensionBadge.remoteForeground": "#ffffff",
 		//"extensionButton.prominentBackground": "#505050",
-		//"extensionButton.prominentForeground": "#c0c0c0",
+		//"extensionButton.prominentForeground": "#b8b8b8",
 		//"extensionButton.prominentHoverBackground": "#444444",
 		//"extensionIcon.starForeground": "#df6100",
 		//"foreground": "#616161",
@@ -324,7 +323,7 @@
 		//"gitlens.mergedPullRequestIconColor": "#995dff",
 		//"gitlens.openPullRequestIconColor": "#56d364",
 		//"gitlens.trailingLineBackgroundColor": "#00000000",
-		//"gitlens.trailingLineForegroundColor": "#c0c0c059",
+		//"gitlens.trailingLineForegroundColor": "#b8b8b859",
 		//"gitlens.unpublishedCommitIconColor": "#35b15e",
 		//"gitlens.unpulledChangesIconColor": "#b15e35",
 		//"gitlens.unpushlishedChangesIconColor": "#35b15e",
@@ -345,14 +344,14 @@
 		//"interactive.activeCodeBorder": "#1a85ff",
 		//"interactive.inactiveCodeBorder": "#50505025",
 		//"keybindingLabel.background": "#dddddd66",
-		//"keybindingLabel.border": "#c0c0c066",
+		//"keybindingLabel.border": "#b8b8b866",
 		//"keybindingLabel.bottomBorder": "#bbbbbb66",
 		//"keybindingLabel.foreground": "#505050",
 		//"list.activeSelectionIconForeground": null,
 		//"list.deemphasizedForeground": "#8e8e90",
 		//"list.dropBackground": "#d6ebff",
 		//"list.errorForeground": "#b01011",
-		//"list.filterMatchBackground": "#c0c0c0",
+		//"list.filterMatchBackground": "#b8b8b8",
 		//"list.filterMatchBorder": null,
 		//"list.focusHighlightForeground": "#505050",
 		//"list.focusOutline": "#505050",
@@ -645,19 +644,21 @@
 				"storage.type.ts",
 				"storage.type.tsx",
 				"storage.type.type",
-				"support.type.object.module"
+				"support.type.object.module",
+				"support.type.property-name",
 			],
 			"settings": {
-				"fontStyle": "bold"
+				"fontStyle": "bold",
+				"foreground": "#000000",
 			}
 		},
 		{
 			"scope": [
 				"comment",
-				"string.quoted.docstring"
+				"string.quoted.docstring",
 			],
 			"settings": {
-				"foreground": "#c0c0c0",
+				"foreground": "#b8b8b8"
 			}
 		},
 		{
@@ -665,33 +666,41 @@
 				"string"
 			],
 			"settings": {
-				"foreground": "#768da8",
+				"foreground": "#f7b955",
 			}
 		},
 		{
 			"scope": [
 				"punctuation.definition.string",
-				"storage.type.string.python"
+				"storage.type.string.python",
+				"constant.other.object.key",
+				"string.unquoted",
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#b8b8b8",
 			}
 		},
 		{
 			"scope": [
-				"entity.name.function"
+				"entity.name.function",
+				"variable.other.constant",
+				"variable.other.class",
 			],
 			"settings": {
-				"fontStyle": "bold"
+				"fontStyle": "bold",
 			}
 		},
 		{
 			"scope": [
-				"variable.other.readwrite"
+				"punctuation.definition.tag",
+				"entity.name.tag.open",
+				"entity.name.tag.close",
+				"entity.other.attribute-name.jsx"
 			],
 			"settings": {
-				"foreground": "#f5a623"
+				"foreground": "#50aace",
+				// "fontStyle": "bold",
 			}
-		},
+		}
 	]
 }
