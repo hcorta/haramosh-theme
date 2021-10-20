@@ -1,21 +1,21 @@
 {
-    "name": "haramosh",
-    "displayName": "Haramosh",
-    "description": "The best light theme",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.61.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Haramohs",
-                "uiTheme": "vs",
-                "path": "./themes/Haramohs-color-theme.json"
-            }
-        ]
-    }
+	"name": "haramosh",
+	"displayName": "Haramosh",
+	"description": "The best light theme",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.61.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Haramosh",
+				"uiTheme": "vs",
+				"path": "./themes/Haramosh-color-theme.json"
+			}
+		]
+	}
 }
