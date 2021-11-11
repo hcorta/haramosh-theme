@@ -650,7 +650,7 @@
 			],
 			"settings": {
 				// "fontStyle": "bold",
-				"foreground": "#000000",
+				"foreground": "#505050",
 			}
 		},
 		{
@@ -682,41 +682,35 @@
 				"constant.other.object.key",
 				"string.unquoted",
 				"keyword.operator",
+				"storage.type"
 			],
 			"settings": {
-				"foreground": "#999999",
+				// "fontStyle": "bold",
+				"foreground": "#ffa500",
 			}
 		},
 		{
 			"scope": [
 				"entity.name.function",
-				"variable.other.constant",
 				"variable.other.class",
 			],
 			"settings": {
-				"fontStyle": "bold",
-			}
-		},
-		{
-			"scope": [
-				"punctuation.definition.tag",
-				"entity.name.tag.open",
-				"entity.name.tag.close",
-				"variable.other.readwrite",
-			],
-			"settings": {
-				// "foreground": "#57e0c3",
-				"fontStyle": "bold",
+				"foreground": "#0cabb6",
 			}
 		},
 		{
 			"scope": [
 				"variable.other.object",
+				"variable.other.readwrite",
+				"variable.other.constant",
+				"punctuation.definition.tag",
+				"entity.name.tag.open",
+				"entity.name.tag.close",
 			],
 			"settings": {
-				"foreground": "#98d2e5",
-				// "fontStyle": "bold",
+				"foreground": "#000000",
+				"fontStyle": "bold",
 			}
-		}
+		},
 	]
 }
