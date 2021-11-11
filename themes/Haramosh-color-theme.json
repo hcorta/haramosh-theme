@@ -600,6 +600,7 @@
 	"tokenColors": [
 		{
 			"scope": [
+				"punctuation.definition.string",
 				"beginning.punctuation",
 				"entity.name.section.group-title",
 				"entity.name.tag",
@@ -649,53 +650,56 @@
 				"entity.other.attribute-name.jsx"
 			],
 			"settings": {
-				// "fontStyle": "bold",
-				"foreground": "#505050",
+				"fontStyle": "italic",
+				"foreground": "#000000",
+			}
+		},
+		{
+			"scope": [
+				"string.unquoted",
+				"punctuation.definition.string",
+				"entity.other.attribute-name.id",
+				"entity.other.attribute-name.class",
+				"entity.name.tag.css",
+				"keyword.control.at-rule.media.css",
+				"storage.type.string.python",
+				"constant.other.object.key",
+				"keyword.operator",
+				"storage.type"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#757575"
 			}
 		},
 		{
 			"scope": [
 				"comment",
-				"string.quoted.docstring",
 				"string",
+				"string.quoted",
 			],
 			"settings": {
-				"foreground": "#999999"
+				"fontStyle": "italic",
+				"foreground": "#00abd6"
 			}
 		},
 		{
-			"scope": [
-				"meta.selector.css",
-				"entity.other.attribute-name.id",
-				"entity.other.attribute-name.class",
-				"entity.name.tag.css",
-				"keyword.control.at-rule.media.css",
-			],
+			"scope": [],
 			"settings": {
 				"foreground": "#ffd700",
 			}
 		},
 		{
 			"scope": [
-				"punctuation.definition.string",
-				"storage.type.string.python",
-				"constant.other.object.key",
-				"string.unquoted",
-				"keyword.operator",
-				"storage.type"
-			],
-			"settings": {
-				// "fontStyle": "bold",
-				"foreground": "#ffa500",
-			}
-		},
-		{
-			"scope": [
 				"entity.name.function",
 				"variable.other.class",
+				"punctuation.definition.tag",
+				"entity.name.tag.open",
+				"entity.name.tag.close",
 			],
 			"settings": {
-				"foreground": "#0cabb6",
+				"foreground": "#5884a9",
+				"fontStyle": "bold",
 			}
 		},
 		{
@@ -703,13 +707,10 @@
 				"variable.other.object",
 				"variable.other.readwrite",
 				"variable.other.constant",
-				"punctuation.definition.tag",
-				"entity.name.tag.open",
-				"entity.name.tag.close",
 			],
 			"settings": {
-				"foreground": "#000000",
-				"fontStyle": "bold",
+				// "foreground": "#969696",
+				// "fontStyle": "italic bold",
 			}
 		},
 	]
